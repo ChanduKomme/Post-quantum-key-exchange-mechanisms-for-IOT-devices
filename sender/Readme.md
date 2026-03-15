@@ -3,7 +3,6 @@
 ## Table of Contents
 - Overview
 - Features
-- Project Structure
 - Requirements
 - Configuration
 - Building the Firmware
