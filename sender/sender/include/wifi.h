@@ -5,8 +5,8 @@ extern "C" {
 #endif
 
 /* Credentials */
-#define WIFI_SSID "Chandu"
-#define WIFI_PW   "12345678910"
+#define WIFI_SSID "Wifi_name"
+#define WIFI_PW   "Your_password"
 
 /* Function prototypes */
 void task_wifi(void *param);
