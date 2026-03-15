@@ -85,10 +85,12 @@ This repository contains the complete prototype.
 - Works with the included Python monitor tool to feed packet data into **Wireshark**.
 
 ***System-output***
----
+![Prototype](Prototype/System_Output/system_output.jpg)
+
+***Data packets captured in monitor mode***
+![Prototype](Prototype/System_Output/Data_packets(monitor_mode).jpg)
 
 ---
-
 ## Prototype
 
 ![Prototype](Prototype/Prototype.jpg)
@@ -258,7 +260,6 @@ This repository includes assets from controlled lab testing of the system.
 |---|---|---|
 | Packet sniffing | Yes | ML-KEM + AES-CCM protect the payload |
 | Packet tampering | Yes | AES-CCM authentication tag |
-| Replay handling | Yes | Nonce cache / freshness checks |
 | Traffic observability without plaintext disclosure | Yes | Sniffer + Wireshark |
 | Public-key authentication during retrieval | Not yet fully implemented | Future work |
 
