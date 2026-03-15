@@ -29,7 +29,7 @@ The sender:
 - sends one protected CoAP message to the gateway
 - blinks an LED on success
 
-> This contains **only the sender firmware**. You still need the matching **gateway firmware** on another BL602 board to complete the key exchange and decryption flow.
+
 
 ## Features
 - BL602 Wi-Fi station mode
