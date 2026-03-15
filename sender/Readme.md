@@ -42,29 +42,7 @@ The sender:
 - Serial log output for debugging
 - GPIO5 LED indication after send
 
-## Project Structure
-```text
-sender/
-├── Makefile
-├── genromap
-├── proj_config.mk
-├── sender/
-│   ├── bouffalo.mk
-│   ├── main.cpp
-│   ├── wifi.cpp
-│   ├── coap_minimal.c
-│   ├── pqkem_kem.c
-│   ├── pqkem_kem.h
-│   ├── include/
-│   │   ├── coap_minimal.h
-│   │   ├── pqkem_kem.h
-│   │   └── wifi.h
-│   └── kyber/
-│       └── kyber512_ref/
-└── tools/
-    ├── main.cpp
-    └── monitor/
-        └── monitor.py
+
 ```
 
 ## Requirements
