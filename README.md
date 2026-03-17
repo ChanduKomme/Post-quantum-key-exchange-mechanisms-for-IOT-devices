@@ -354,7 +354,6 @@ If ciphertext, nonce, or tag is changed, the Gateway reports **AUTH FAIL**.
 
 ## Future Work
 
-The repository already demonstrates the core system, but the code and report also make clear what should come next:
 
 - support **ML-KEM-768** and **ML-KEM-1024**
 - move from the current compact custom payload format to **CBOR/COSE**
